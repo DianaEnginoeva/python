@@ -23,6 +23,7 @@
 
 * [Python internals: Arbitrary-precision integer implementation](https://rushter.com/blog/python-integer-implementation/)
 * [A Comparison of Common DOS and Linux Commands](https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/4/html/Step_by_Step_Guide/ap-doslinux.html)
+* [Using better CLIs](https://dev.to/sobolevn/using-better-clis-6o8)
 
 ###### Other
 
