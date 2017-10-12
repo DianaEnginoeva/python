@@ -36,7 +36,7 @@
 * [Я не знаю ООП (критика ООП)](https://habrahabr.ru/post/147927/)
 * [Руководство по магическим методам в Питоне)](https://habrahabr.ru/post/186608/)
 * [Difference between class and instance attributes](https://stackoverflow.com/questions/207000/python-difference-between-class-and-instance-attributes)
-* [Add me](https://)
+* [Наследование в Python](http://pythonicway.com/education/python-oop-themes/21-python-inheritance)
 
 ###### Other
 
