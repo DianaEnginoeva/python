@@ -34,7 +34,7 @@
 * [Improve Your Python: Python Classes and Object Oriented Programming](https://jeffknupp.com/blog/2014/06/18/improve-your-python-python-classes-and-object-oriented-programming/)
 * [Перестаньте писать классы (в каких случаях не нужно ООП](https://habrahabr.ru/post/140581/)
 * [Я не знаю ООП (критика ООП)](https://habrahabr.ru/post/147927/)
-* [Руководство по магическим методам в Питоне](https://habrahabr.ru/post/186608/)
+* [Руководство по магическим методам в Питоне)](https://habrahabr.ru/post/186608/)
 * [Difference between class and instance attributes](https://stackoverflow.com/questions/207000/python-difference-between-class-and-instance-attributes)
 * [Add me](https://)
 
