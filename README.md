@@ -38,6 +38,12 @@
 * [Difference between class and instance attributes](https://stackoverflow.com/questions/207000/python-difference-between-class-and-instance-attributes)
 * [Наследование в Python](http://pythonicway.com/education/python-oop-themes/21-python-inheritance)
 
+####### Polymorphism
+
+* [Polymorphism](https://pythonspot.com/en/polymorphism/)
+* [Video: Polymorphism](https://www.youtube.com/watch?v=wksc1pfhJ5Q)
+* [How To Apply Polymorphism to Classes in Python 3](https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3)
+
 ###### Other
 
 * [Необразованная молодёжь. Ответ преподавателя-совместителя](https://habrahabr.ru/post/339208/)
