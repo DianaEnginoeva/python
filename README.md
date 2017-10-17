@@ -44,6 +44,12 @@
 * [Video: Polymorphism](https://www.youtube.com/watch?v=wksc1pfhJ5Q)
 * [How To Apply Polymorphism to Classes in Python 3](https://www.digitalocean.com/community/tutorials/how-to-apply-polymorphism-to-classes-in-python-3)
 
+###### Duck typing
+
+* [Утиная типизация (википедия)](https://ru.wikipedia.org/wiki/Утиная_типизация)
+* [What is “duck typing”?](https://ericlippert.com/2014/01/02/what-is-duck-typing/)
+* [Duck Typing Is More Than Quackery](https://haacked.com/archive/2014/01/04/duck-typing/)
+
 ##### Other
 
 * [Необразованная молодёжь. Ответ преподавателя-совместителя](https://habrahabr.ru/post/339208/)
