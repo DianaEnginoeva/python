@@ -2,6 +2,7 @@
 
 ### Process of studying
 
+* [Study Plan](https://github.com/mos-polytech/2017/blob/master/study-plan.md)
 * [Lectures](https://github.com/mos-polytech/2017/tree/master/lectures_pdf)
 * [Homework](https://github.com/mos-polytech/2017/tree/master/homework) 
 * [Progress](https://docs.google.com/spreadsheets/d/1Q5MXKvTVWPuJ9ulgnDX4LcAejXU34vp8auTyxmLKM-A/edit#gid=0)
