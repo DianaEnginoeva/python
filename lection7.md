@@ -27,3 +27,25 @@ for i in range(10):
     d.update({i : i * 2})
     
 dict_comprehension = {i: i * 2 for i in range(10) if i % 2 == 1}'
+
+GITHUB
+слишком много синтаксического сахара затрудняет прочтение кода, малое его количество упрощает жизнь
+много сахара - будет диабет
+
+числа фибоначчи (есть ли там ноль)
+
+def fib():
+  a, b = 0, 1
+  
+  while True:
+    yield a #если в функции есть yield --> эта функция вернет генератор
+    
+    a, b = b, a + b
+    
+gen = fib()
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
+print(next(gen))
