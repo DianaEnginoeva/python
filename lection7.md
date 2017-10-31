@@ -1,7 +1,8 @@
 Синтаксические полезности
 
 ```python 
-d = []```
+d = []
+```
 
 ```python
 list_comprehension = [i * 2 for i in range(10) if i % 2 == 1]
