@@ -16,6 +16,7 @@
 
 * [Codefights](https://codefights.com)
 * [Visualize](http://www.pythontutor.com/visualize.html#mode=edit)
+* [TryJupyter](https://try.jupyter.org)
 * [TryGit](https://try.github.io)
 
 ### Articles
