@@ -44,7 +44,7 @@ import randomm (=ModuleNotFoundError)
 a = [1, 2]
 print(a[3])
 ```
-- [ x ] 'KeyError'
+- [x] 'KeyError'
 ```python
 dic = {'1': 'p'}
 print(dic['p'])
@@ -155,7 +155,7 @@ t = Test()
 t.run(7) #Runn! <__main__.Test object at 0x105621f98> 7
 ```
 ### Магические методы
-__init__ - конструктор
+'__init__' - конструктор
 ```python
 class Test(object):
   def __init__(self, z, x):
