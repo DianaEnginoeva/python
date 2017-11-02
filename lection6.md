@@ -1,8 +1,10 @@
 Аннотация типов - позволяет указать тот тип, который нам необходим
 не влияет на тип
 
-```def some() -> str:
-    return 'Hello```
+```python
+def some() -> str:
+    return 'Hello
+```
 
 
 ### GIT
