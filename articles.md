@@ -33,7 +33,7 @@
 
 ##### Decorators
 
-* [Functools](https://docs.python.org/2/library/functools.html)([Модуль functools](https://pythonworld.ru/moduli/modul-functools.html))
+* [Functools](https://docs.python.org/2/library/functools.html) ([Модуль functools](https://pythonworld.ru/moduli/modul-functools.html))
 * []()
 * []()
 * []()
