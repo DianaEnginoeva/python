@@ -11,7 +11,7 @@ def some() -> str:
 git clone (ссылка)
 обновить репозиторий 
 
-git fetch upstream - 
+git fetch upstream - \n
 git checkout master
 git merge upstream/master
 git push -u origin master
