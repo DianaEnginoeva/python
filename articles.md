@@ -31,6 +31,13 @@
 * [What is “duck typing”?](https://ericlippert.com/2014/01/02/what-is-duck-typing/)
 * [Duck Typing Is More Than Quackery](https://haacked.com/archive/2014/01/04/duck-typing/)
 
+##### Decorators
+
+* [Functools](https://docs.python.org/2/library/functools.html)([Модуль functools](https://pythonworld.ru/moduli/modul-functools.html))
+* []()
+* []()
+* []()
+
 ##### Other
 
 * [Необразованная молодёжь. Ответ преподавателя-совместителя](https://habrahabr.ru/post/339208/)
