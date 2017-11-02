@@ -87,14 +87,13 @@ print(str(4) + '1') # 41
 ```python
 'abcd'[1:4:2]
 ```
-<br><br>
+проверка вхождения подстроки в строку 
 ```python
 # Testing occurrence 
 print('be' in 'To be or not to be?') # True 
 print('123' in '123') # True 
 print('100' in '200') # False
 ```
-проверка вхождения подстроки в строку 
 ```python
 print('I am not there' not in 'String')
 ```
@@ -123,4 +122,4 @@ print(len('7 chars'))
 import sys
 sys.getsizeof(0)
 ```
-! Григорий ѕетров - it-speaker 
+! Григорий Петров - it-speaker 
