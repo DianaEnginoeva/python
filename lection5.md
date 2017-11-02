@@ -1,101 +1,95 @@
-Лекция 5 
+### Тест
+1. как работает mro (method resolution order - порядок разрешения методов) - если атрибута нет в дочернем объекте, то mro начинает искать его в других местах (сначала смотрит в дочернем классе, затем идет в каждый из родительских классов в порядке перечисления вверх и вправо)
+2. класс - уникальный, объектов может быть много. Объект принимает конкретные значения
 
-Ответы на теоретический тест:
+### ООП
 
-* Как работает mro (method resolution order - порядок разрешения методов) - если атрибута нет в дочернем объекте, то mro начинает искать его в других местах (сначала смотрит в дочернем классе, затем идет в каждый из родительских классов в порядке перечисления вверх и вправо???)
-* Класс - уникальный, объектов может быть много. Объект принимает конкретные значения
-
-ООП
-
-Полиморфизм
+#### Полиморфизм
 
 Из предыдущей лекции: полиморфизм - позволяет использовать функции по разному, вне зависимости от типа их параметров (функция print, например, может печатать любой тип данных).
 
 Из теории дз: полиморфизм – это свойство системы использовать объекты с одинаковым интерфейсом без информации о типе и внутренней структуре объекта.
-По сути, можно сказать, что все автомобили имеют один и тот же интерфейс, а водитель, абстрагируясь от сущности автомобиля, работает именно с этим интерфейсом.
-Любое обучение вождению не имело бы смысла, если бы человек, научившийся водить, скажем, ВАЗ 2106 не мог потом водить ВАЗ 2110 или BMW X3. 
+По сути, можно сказать, что все автомобили имеют один и тот же интерфейс, а водитель, абстрагируясь от сущности автомобиля, работает именно с этим интерфейсом. Любое обучение вождению не имело бы смысла, если бы человек, научившийся водить, скажем, ВАЗ 2106 не мог потом водить ВАЗ 2110 или BMW X3. 
 
 В языках с динамической типизацией неважно, какой тип данных передавать. Python, php - динамическая типизация, c# - статическая типизация.
 
-Динамическая типизация
-
-+ упрощает жизнь, можно не задумываться о типе данных
-- ???
-
-Магический метод __add__
-
+### Магический метод _ _add_ _
+```python
 class Test(object):
-def __init__(self, value):
-self.value = value
+  def __init__(self, value):
+    self.value = value
 
 n1 = Test(4)
 n2 = Test(5)
 
 n1 + n2 #результатом будет ошибка
-
-Переопределение сложения с помощью магических методов
-
+```
+переопределение сложения с помощью магических методов
+```python
 class Test(object):
-def __init__(self, value):
-self.value = value
+  def __init__(self, value):
+    self.value = value
 
-def __add__(self, other):
-return self.value + other.value
+  def __add__(self, other):
+    return self.value + other.value
 
 n1 = Test(4)
 n2 = Test(5)
 
 n1 + n2 #результатом будет 9
-
+```
 Метод __add__ мы не вызываем явно, но он сам вызывается, когда происходит сложение
 
-Магический метод приведения к булевому типу
-
-Def __bool__(self):
-return bool(self, value)
-
-n1 is n2 #то же самое, что сравнение по id (id(n1) == id(n2)) - чтобы сравнить два объекта! Если мы переопределился метод ==
-
+### Магический метод приведения к булевому типу (_ _ bool _ _)
+```python
+def __bool__(self):
+  return bool(self, value)
+```
+### Переопределение метода сравнения _ _ eq _ _
+n1 is n2 #то же самое, что сравнение по id (id(n1) == id(n2)) - чтобы сравнить два объекта!
+```python
 def __eq__(self, other): #переопределение метода сравнения, теперь объекты будут сравниваться по значению, а не по id
 return self.value == other.value
-
-Задачи
-
+```
+### Практика
 1. Написать класс, который принимает строку или число, объекты которого могу складываться со строками или числами
 
-Мое решение: 
+Мое решение:
+```python
 class Test(object):
-def __init__(self, value):
-self.value = value
-def __add__(self, other):
-if isinstance(other, str):
-return str(self.value) + other
-elif isinstance(other, int):
-return int(self.value) + other
+  def __init__(self, value):
+    self.value = value
+  def __add__(self, other):
+    if isinstance(other, str):
+      return str(self.value) + other
+    elif isinstance(other, int):
+      return int(self.value) + other
 
 x = Test(9)
 x + 9 #18
 
 x + ‘8’ #’98’
-
+```
 Решение:
+```python
 class Test(object):
-def __init__(self, value):
-self.value = value
+  def __init__(self, value):
+    self.value = value
 
-def __repr__(self):
-return 'Test <{}>'.format(self.value)
+  def __repr__(self):
+    return 'Test <{}>'.format(self.value)
 
-def __add__(self, other):
-if isinstance(other, (str, int, float)): #если пришло число складываем само число
-value = other
-else: #если пришел объект, складываем его значение
-value = other.value
+  def __add__(self, other):
+    if isinstance(other, (str, int, float)): #если пришло число складываем само число
+      value = other
+    else: #если пришел объект, складываем его значение
+      value = other.value
 
-try:
-return self.value + value
-except TypeError:
-return str(self.value) + str(value)
-def __radd__(self, other):
-print('radd', self, other)
-return Test(other) + self
+  try:
+   return self.value + value
+  except TypeError:
+    return str(self.value) + str(value)
+  def __radd__(self, other):
+    print('radd', self, other)
+   return Test(other) + self
+```
