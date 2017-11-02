@@ -155,7 +155,7 @@ t = Test()
 t.run(7) #Runn! <__main__.Test object at 0x105621f98> 7
 ```
 ### Магические методы
-_ _init_ _ - конструктор
+_ _ _init_ _ _ - конструктор
 ```python
 class Test(object):
   def __init__(self, z, x):
@@ -177,7 +177,7 @@ class Test(object):
 t=Test(1, 3) #3 1
 t.x, t.y, t.z #(3, 'Y!', 1)
 ```
-_ _mro_ _ (method resolution order - порядок разрешения методов) - чтобы Python правильно находил атрибуты объектов 
+_ _ _mro_ _ _ (method resolution order - порядок разрешения методов) - чтобы Python правильно находил атрибуты объектов 
 ```python
 asyncTest.__mro__ #(<class '__main__.AsyncTest'>, <class '__main__.Test'>, <class 'object'>)
 ```
@@ -234,7 +234,7 @@ class MathApplication(object):
 public - пользователь будет использовать
 _protected - не будет использовать
 
-_ _что-то_ _ - магическая штука (метод), потому что явно мы её не используем, переопределяет поведение класса в разных ситуациях.
+_ _ _что-то_ _ _ - магическая штука (метод), потому что явно мы её не используем, переопределяет поведение класса в разных ситуациях.
 ```python
 class AlwaysEqual(object):
   def __equal (self, other):
