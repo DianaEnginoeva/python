@@ -8,24 +8,18 @@ def some() -> str:
 
 ### GIT
 
-git clone (ссылка)
-обновить репозиторий 
-
-git fetch upstream - \n
-git checkout master
-git merge upstream/master
-git push -u origin master
-
-git checkout -b feature-homework-5
-
-git add --all
-git commit -m ''
-git push -u origin feature-homework-5
-
-compare and pullrequest
-
-выбрать свою ветку
-
+git clone (ссылка)<br>
+обновить репозиторий<br>
+git fetch upstream -<br>
+git checkout master<br>
+git merge upstream/master<br>
+git push -u origin master<br>
+git checkout -b feature-homework-5<br>
+git add --all<br>
+git commit -m ''<br>
+git push -u origin feature-homework-5<br>
+compare and pullrequest<br>
+выбрать свою ветку<br>
 create pullrequest
 
 
