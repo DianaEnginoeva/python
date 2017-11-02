@@ -2,7 +2,7 @@
 
 ```python
 def some() -> str:
-    return 'Hello
+    return 'Hello'
 ```
 
 
