@@ -32,7 +32,7 @@ not True -> False
 
 or - выводит первое значение 
 
-#### Условия 
+условия 
 
 ```python
 if test1: 
@@ -42,18 +42,14 @@ elif test2:
 else: 
   state3 
 ```
-
-
-##### Многострочная строка
+многострочная строка
 ```python
 print(""" 
 This string contains multiline 
 text. And extra spaces. 
 """)
 ```
-
-
-##### Приведение к строке
+приведение к строке
 ```python
 # Casting to string: 
 print(str(4))
@@ -65,7 +61,7 @@ print(str(4) + '1') # 41
 
 [] -оператор индексирования (получает элемент по индексу)
 ```python
-'abc'[0] -> a
+'abc'[0] # a
 ``` 
 срез не включительно
 ```python
@@ -98,12 +94,10 @@ print('be' in 'To be or not to be?') # True
 print('123' in '123') # True 
 print('100' in '200') # False
 ```
-
 проверка вхождения подстроки в строку 
 ```python
 print('I am not there' not in 'String')
 ```
-<br><br>
 форматирование
 ```python
 # String format: 
@@ -128,5 +122,5 @@ print(len('7 chars'))
 ```python
 import sys
 sys.getsizeof(0)
-```<br><br>
+```
 ! Григорий ѕетров - it-speaker 
