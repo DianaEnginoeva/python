@@ -1,11 +1,11 @@
 ### GIT
-клонировать репозиторий
-git clone ссылка
-cd homework-template
-git checkout -b feature-homework-2
-добавить файлы
-git add *
-git commit -m «комментарий»
-git push -u origin feature-homework-2
-удалить ветку
+клонировать репозиторий<br>
+git clone ссылка<br>
+cd homework-template<br>
+git checkout -b feature-homework-2<br>
+добавить файлы<br>
+git add *<br>
+git commit -m «комментарий»<br>
+git push -u origin feature-homework-2<br>
+удалить ветку<br>
 git push origin —delete название_ветки
