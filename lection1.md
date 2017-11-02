@@ -105,7 +105,7 @@ print('Hello, {}. You are learning {}'.format('Nikita', 'Python'))
 Пример:
 ```python
 a='Diana' 
-print('Darova, {}'.format(a)) -> Darova, Diana
+print('Darova, {}'.format(a)) # Darova, Diana
 ```
 разбивает строку на части, используя разделитель, и возвращает эти части списком
 ```python
