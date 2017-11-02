@@ -2,15 +2,15 @@
 
 #### English
 
-- [] How to learn any language in six months | Chris Lonsdale | TEDxLingnanUniversity
-- [] The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU
-- [] lingoda | The online language school
+- [ ] How to learn any language in six months | Chris Lonsdale | TEDxLingnanUniversity
+- [ ] The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU
+- [ ] lingoda | The online language school
 
 #### Math
 
-- [] Basic Algebra
-- [] A First Course in Linear Algebra
-- [] CS 103 Mathematical Foundations of Computing by Stanford University
+- [ ] Basic Algebra
+- [ ] A First Course in Linear Algebra
+- [ ] CS 103 Mathematical Foundations of Computing by Stanford University
 - [] Introduction to Mathematical Thinking
 - [] Concrete Mathematics: A Foundation for Computer Science
 - [] Discrete Mathematics
