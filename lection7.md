@@ -40,8 +40,8 @@ def fib():
   
   while True:
     yield a #если в функции есть yield --> эта функция вернет генератор 
-    #(yield сохраняет контекст выполнения. он запоминает какую строчку он
-    #выполнял последним и возвращается к этой строчке, а не к первой строчке функции)'''
+    #(yield сохраняет контекст выполнения. возвращается к строке, 
+    #которая выполнялась последней, а не к началу функции)'''
     
     a, b = b, a + b
     
@@ -58,16 +58,16 @@ print(next(gen))
 ### Задания:
 1) реализовать свою версию range, используя ключевое слово yield
 ```python
-def yourintellect():
+def your_intellect():
     intellect = 1
-    severhoursofhardwork = 1.5
+    sevenhoursofhardwork = 1.5
         
     while True:
         yield intellect
          
-        intellect = intellect * severhoursofhardwork
+        intellect = intellect * sevenhoursofhardwork
             
-gen = yourintellect()
+gen = your_intellect()
 print(next(gen))
 print(next(gen))
 print(next(gen))
@@ -148,7 +148,3 @@ r = dec(min)
 
 r(1, 2)
 ```
-
-- [ ] не чек
-- [x] чек
-
