@@ -25,21 +25,21 @@ dir(объект) - посмотреть какие методы и атрибу
 Deque - тип данных, типа List, можно добавлять в начало и удалять из начала
 ### Исключения
 
-- [ x ] 'AttributeError'
+- [x] 'AttributeError'
 ```python
 a = 5
 a.append(8)
 ```
-- [ x ] 'Exception'
+- [x] 'Exception'
 ```python
 raise Exception('Test')
 ```
-- [ x ] 'ImportError’
+- [x] 'ImportError’
 ```python
 import randomm (=ModuleNotFoundError)
 ```
-- [ x ] 'IndentationError' (неправильное кол-во пробелов)
-- [ x ] 'IndexError'
+- [x] 'IndentationError' (неправильное кол-во пробелов)
+- [x] 'IndexError'
 ```python
 a = [1, 2]
 print(a[3])
@@ -49,19 +49,19 @@ print(a[3])
 dic = {'1': 'p'}
 print(dic['p'])
 ```
-- [ x ] 'KeyboardInterrupt'
+- [x] 'KeyboardInterrupt'
 ctrl+c
-- [ x ] 'TypeError'
+- [x] 'TypeError'
 ```python
 a = 5
 print(a[1])
 ```
-- [ x ] 'ValueError'
+- [x] 'ValueError'
 ```python
 a = [1, 2, 3]
 a.index(4)
 ```
-- [ x ] 'ZeroDivisionError'
+- [x] 'ZeroDivisionError'
 ```python
 a = 1 / 0
 ```
