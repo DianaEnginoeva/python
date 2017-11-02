@@ -1,22 +1,8 @@
-Лекция 6
-
-
-Заметки:
--open source
--hub утилита
-
-
-Вопросы:
--assert
--GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT GIT
-
-
-
-анотация типов - позволяет указать тот тип, который нам необходим
+Аннотация типов - позволяет указать тот тип, который нам необходим
 не влияет на тип
 
-def some() -> str:
-    return 'Hello'
+'''def some() -> str:
+    return 'Hello'''
 
 
 
