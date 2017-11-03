@@ -127,7 +127,7 @@ pytest function_ex.py #название модуля, запуск тестов
 
 
 #### Для windows (cmd)
-```python
+```cmd
 py -m venv .venv
 C:\Users\151-321\.venv\Scripts\activate
 pip install pytest
