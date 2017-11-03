@@ -117,7 +117,7 @@ if __name__ == '__main__':
 mypy - утилита
 pytest
 
-Виртуальна среда - папка, в которой будут хранится зависимости проекта
+Виртуальна среда - папка, в которой будут хранится зависимости проекта (зависимости нужны, чтобы можно было переиспользовать тесты)    
 
 python3 -m venv .venv #.название среды
 ls .venv #проверяем создали ли мы папку
@@ -139,3 +139,8 @@ pip install pytest
 
 Settings -> Project Interpreter -> Папка -> Установить pytest
 Project -> Edit Configuration -> Путь к тестируемому файлу -> Apply -> Run
+
+
+### Доп.инфа
+
+The __init__.py files are required to make Python treat the directories as containing packages; this is done to prevent directories with a common name, such as string, from unintentionally hiding valid modules that occur later (deeper) on the module search path. In the simplest case, __init__.py can just be an empty file, but it can also execute initialization code for the package or set the __all__ variable, described later.
