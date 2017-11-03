@@ -116,3 +116,26 @@ if __name__ == '__main__':
 
 mypy - утилита
 pytest
+
+Виртуальна среда - папка, в которой будут хранится зависимости проекта
+
+python3 -m venv .venv #.название среды
+ls .venv #проверяем создали ли мы папку
+source .venv/bin/activate 
+pip install pytest
+pytest function_ex.py #название модуля, запуск тестов
+
+
+#### Для windows (cmd)
+```python
+py -m venv .venv
+C:\Users\151-321\.venv\Scripts\activate
+pip install pytest
+```
+
+[WakaTime](https://wakatime.com/) - за сколько реально сделана задача
+
+#### PyCharm
+
+Settings -> Project Interpreter -> Папка -> Установить pytest
+Project -> Edit Configuration -> Путь к тестируемому файлу -> Apply -> Run
