@@ -50,3 +50,69 @@ def num():
   yield 9
 ```
 
+### Задачи из дз
+
+1. Написать функцию, которая возвращает генероторное выражение, которое включает в себя все четные числа от 0 до 100
+
+```python
+import random
+from datetime import datetime, timedelta
+
+
+def all_even_numbers():
+    number = 0
+
+    while True:
+        yield number
+        number += 2
+
+
+
+def random_increasing_number():
+    number = random.randint(1, 100)
+
+    while True:
+        yield number
+        number += random.randint(1, 5)
+
+
+def next_day():
+    day = datetime.today().date()
+
+    while True:
+        yield day
+
+        day += timedelta(days=1)
+
+day = next_day()
+print(next(day))
+print(next(day))
+print(next(day))
+print(next(day))
+print(next(day))
+```
+
+### Тестирование
+
+ ```python
+ import unittest
+
+
+def min_or_max(numbers, find_min=True):
+    if find_min:
+        return min(numbers)
+    else:
+        return max(numbers)
+
+
+class TestMinOrMax(unittest.TestCase):
+    def test_input_values(self):
+        result = min_or_max([1, 2, 3])
+        self.assertEqual(result, 1)
+
+if __name__ == '__main__':
+    unittest.main()
+```
+
+mypy - утилита
+pytest
