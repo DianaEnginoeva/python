@@ -67,11 +67,15 @@ response = requests.get(url)
 response.content
 ```
 
+### Регулярные выражения
+
+- [Regex101](https://regex101.com/) - объяснение регулярного выражения
+- [Pythex](https://pythex.org/)
+
 ### Заметки:
 
 - Утилита Postman 
 - [Let’s Encrypt](https://letsencrypt.org/) - сервис бесплатных https-сертификатов
 - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - html-парсер
-- [Pythex](https://pythex.org/)
 - [Scrapy](https://scrapy.org/)
 - [Пример Scrapy](https://github.com/mos-polytech/2017/blob/master/code/course8/scrapy_example/spider.py)
