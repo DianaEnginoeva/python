@@ -6,3 +6,5 @@ Installation:
 1. /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. brew install python3
 3. pip3 install scrapy
+
+[Scrapy installaton on Mac OS](https://www.quora.com/How-do-I-install-Scrapy-on-Mac-OS-X-10-10)
