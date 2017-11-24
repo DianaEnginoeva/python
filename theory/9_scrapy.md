@@ -8,3 +8,5 @@ Installation:
 3. pip3 install scrapy
 
 [Scrapy installaton on Mac OS](https://www.quora.com/How-do-I-install-Scrapy-on-Mac-OS-X-10-10)
+
+[Документация JSON](https://doc.scrapy.org/en/latest/)
