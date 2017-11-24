@@ -7,6 +7,7 @@ Installation:
 2. brew install python3
 3. pip3 install scrapy
 
-[Scrapy installaton on Mac OS](https://www.quora.com/How-do-I-install-Scrapy-on-Mac-OS-X-10-10)
-
-[Документация JSON](https://doc.scrapy.org/en/latest/)
+Ссылки:
+- [Scrapy installaton on Mac OS](https://www.quora.com/How-do-I-install-Scrapy-on-Mac-OS-X-10-10)
+- [Документация JSON](https://doc.scrapy.org/en/latest/)
+- [urllib2 and urllib vs request libraries in Python](https://www.quora.com/What-is-the-difference-between-urllib2-and-urllib-vs-request-libraries-in-Python)
