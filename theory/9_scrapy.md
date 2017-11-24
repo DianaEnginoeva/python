@@ -2,7 +2,7 @@ Scrapy is an application framework for crawling web sites and extracting structu
 
 Scrapy's requests are scheduled and processed asynchronously. This means that Scrapy doesn’t need to wait for a request to be finished and processed, it can send another request or do other things in the meantime. This also means that other requests can keep going even if some request fails or an error happens while handling it.
 
-Installation:
+Installation (for macbook):
 1. /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 2. brew install python3
 3. pip3 install scrapy
