@@ -1,6 +1,6 @@
 <h2>Django</h2>
 
-Установка Django на macbook:
+Install Django (macbook):
 
 1. Verify that you have Python on your computer
 ```terminal
@@ -20,26 +20,32 @@ python get-pip.py
 ```terminal
 sudo pip install Django
 ```
-
-
-Создать новый проект
+ Команды в терминале:
+ 
+- Создать новый проект
+```terminal
 django-admin startproject first_project
+```
 
 нахуя?
+```terminal
 python manage.py runserver
+```
 перейти по указанной ссылке
 например: Starting development server at http://127.0.0.1:8000/
 
 ??? типы масштабирования бд (репликация)
-
+```terminal
 python manage.py migrate
-
-https://www.slothparadise.com/how-to-install-django-on-mac/
-
+```
+```terminal
 python manage.py createsuperuser
-
+```
 
 http://127.0.0.1:8000/admin/login/?next=/admin/
 
-
+```terminal
 python manage.py startapp hello_app
+```
+
+
